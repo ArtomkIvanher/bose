@@ -1,0 +1,22 @@
+.btn_linia{
+    position: relative;
+	font-size: 1.25rem;
+	text-decoration: none;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0; bottom: -5px;
+        width: 0;
+        height: 3px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    &:hover:before {
+        width: 100%;
+    }
+
+    &::before {
+        transition: width 0.35s;
+    }
+}
