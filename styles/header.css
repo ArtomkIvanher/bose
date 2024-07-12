@@ -28,6 +28,7 @@ header {
 		display: flex;
 		justify-content: space-between;
 		.icon_menu {
+			cursor: pointer;
 			transition: 0.5s;
 			&:active {
 				transition: 0.3s;
@@ -61,6 +62,7 @@ header {
 		p {
 			font-size: 32px;
 			width: auto;
+			cursor: pointer;
 		}
 	}
 	.bg_color {
