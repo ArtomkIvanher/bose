@@ -1,0 +1,109 @@
+.main {
+	padding: 0 7vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	& > section {
+		max-width: calc(324px * 3);
+	}
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 100%;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: -1px;
+	color: var(--text-color);
+	margin: 30px 0;
+}
+
+#recommended {
+	.cards {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		.card {
+			img {
+			}
+			p {
+				font-size: 16px;
+				line-height: 22.4px;
+				text-align: left;
+			}
+			.text1 {
+				font-weight: 700;
+			}
+			.text2 {
+				font-weight: 400;
+			}
+			.text3 {
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+#categories {
+	.sliders {
+	}
+	.slider {
+		margin: 0 0 20px 0;
+		p {
+			margin: 10px 0 0 0;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 33.6px;
+			color: var(--text-color);
+		}
+	}
+	.images {
+		display: flex;
+		justify-content: space-between;
+		.img1 {
+			width: 66%;
+		}
+		.img2 {
+			width: 32%;
+		}
+	}
+}
+
+#How_to_buy {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	h2 {
+		max-width: 80vw;
+		min-width: 200px;
+		width: 50%;
+		text-align: left;
+	}
+	.text {
+		margin: 0 0 30px 0;
+		max-width: 100%;
+		min-width: 200px;
+		width: 50%;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 33.6px;
+	}
+	.text_top {
+		font-family: Inter;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 22.4px;
+		text-align: left;
+		p{
+			margin-top: 0 0 16px 0;
+		}
+	}
+	.text_bottom {
+		font-family: Inter;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 27px;
+		text-align: left;
+	}
+}

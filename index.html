@@ -4,54 +4,119 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Bose</title>
-		<link rel="stylesheet" href="styles/global.css">
+		<link rel="stylesheet" href="styles/global.css" />
 		<link rel="stylesheet" href="styles/header.css" />
-		<link rel="stylesheet" href="styles/btn_linia.css">
+		<link rel="stylesheet" href="styles/main.css" />
+		<link rel="stylesheet" href="styles/footer.css">
+		<link rel="stylesheet" href="styles/btn_linia.css" />
 	</head>
 	<body>
-		<header id='header' class='header'>
-			<div class='header__top'>
+		<header id="header" class="header">
+			<div class="header__top">
 				<img src="img/Logo.png" alt="Bose logo" />
-				<img class='icon_menu' id='iconBurgerMenu' src="img/icons/Icon-Burger-menu.png" alt="" />
+				<img
+					class="icon_menu"
+					id="iconBurgerMenu"
+					src="img/icons/Icon-Burger-menu.png"
+					alt=""
+				/>
 			</div>
 
-			<div class='header__bottom'>
+			<div class="header__bottom">
 				<img src="img/sound-waves.png" alt="Sound waves" />
 				<h1>
-					<p class='p1'>The world shades.</p>
-					<p class='p2'>Your music shines.</p>
+					<p class="p1">The world shades.</p>
+					<p class="p2">Your music shines.</p>
 				</h1>
 			</div>
 
-            <div id='menu' class='menu'>
-                <p class='btn_linia'>Home</p>
-                <p class='btn_linia'>Recommended</p>
-                <p class='btn_linia'>Categories</p>
-                <p class='btn_linia'>How to buy</p>
-            </div>
-            <div class="bg_color"></div>
+			<nav id="menu" class="menu">
+				<a href="#home" class="btn_linia">Home</a>
+				<a href="#recommended" class="btn_linia">Recommended</a>
+				<a href="#categories" class="btn_linia">Categories</a>
+				<a href="#How_to_buy" class="btn_linia">How to buy</a>
+			</nav>
+			<div class="bg_color"></div>
 		</header>
 
-		<main>
-			<section>
+		<main class="main">
+			<section id="recommended">
 				<h2>Recommended</h2>
+				<div class="cards">
+					<div class="card">
+						<img src="img/recommended/smart-speaker.png" alt="" />
+						<p class="text1">Bose portable Smart speaker</p>
+						<p class="text2">Smart home</p>
+						<p class="text3">$ 399.00</p>
+					</div>
+					<div class="card">
+						<img src="img/recommended/bluetooth-speaker.png" alt="" />
+						<p class="text1">SoundLink Flex Bluetooth speaker</p>
+						<p class="text2">Portable bluetooth</p>
+						<p class="text3">$ 149.00</p>
+					</div>
+					<div class="card">
+						<img src="img/recommended/bluetooth-speaker-II.png" alt="" />
+						<p class="text1">SoundLink Color Bluetooth speaker II</p>
+						<p class="text2">Portable bluetooth</p>
+						<p class="text3">$ 129.00</p>
+					</div>
+				</div>
 			</section>
-			<section>
+
+			<section id="categories">
 				<h2>
 					<p>Browse Bose</p>
 					<p>products by category</p>
 				</h2>
+				<div class="sliders">
+					<div class="slider">
+						<div class="images">
+							<img class="img1" src="img/categories/slider1.0.png" alt="" />
+							<img class="img2" src="img/categories/slider1.1.png" alt="" />
+						</div>
+						<p>Headphones & earbuds</p>
+					</div>
+					<div class="slider">
+						<div class="images">
+							<img class="img1" src="img/categories/slider2.0.png" alt="" />
+							<img class="img2" src="img/categories/slider2.1.png" alt="" />
+						</div>
+						<p>Speakers</p>
+					</div>
+					<div class="slider">
+						<div class="images">
+							<img class="img2" src="img/categories/slider3.0.png" alt="" />
+							<img class="img1" src="img/categories/slider3.1.png" alt="" />
+						</div>
+						<p>Audio sunglasses</p>
+					</div>
+				</div>
 			</section>
-			<section>
+
+			<section id="How_to_buy">
 				<h2>
 					<p>Why buy direct</p>
 					<p>from Bose</p>
 				</h2>
+				<div class="text">
+					<div class="text_top">
+						<p>Free 2-day shipping and returns</p>
+						<p>90-day risk-free trial</p>
+						<p>World class customer service</p>
+						<p>My Bose account management</p>
+					</div>
+					<div class="text_bottom">
+						<p>A great product is more than what’s in the box. It’s a promise of premium performance, world-class support, and everything you expect from a trusted brand. It’s just one of many reasons why you’ll shop with confidence on Bose.com.</p>
+					</div>
+				</div>
 			</section>
 		</main>
 
-		<footer></footer>
+		<footer>
+			<img src="img/footer.png" alt="">
+		</footer>
 	</body>
 
-    <script src='script.js'></script>
+	<script src="script.js"></script>
 </html>
